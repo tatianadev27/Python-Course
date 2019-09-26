@@ -7,7 +7,7 @@ data = {
     'Deporte': ['Futbol', 'Basqueball', 'Esgrima'],
     'Materia': ['Ingles', 'Quimica', 'Fisica']
 }
-
+for key in data.values/9
 df = pd.DataFrame(data)
 print(df)
 print('\n' * 2)
