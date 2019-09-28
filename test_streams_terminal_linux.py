@@ -1,6 +1,7 @@
 # python3 test_streams_terminal_linux.py 1> salida 2> error
-# tail -f salida, tail -f salida
+# tail -f salida, tail -f error
 # python3 test_streams_terminal_linux.py 1>> salida 2>> error
+# python3 test_streams_terminal_linux.py > todo.log 2>&1
 
 import time
 import sys
