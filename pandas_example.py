@@ -7,7 +7,7 @@ data = {
     'Deporte': ['Futbol', 'Basqueball', 'Esgrima'],
     'Materia': ['Ingles', 'Quimica', 'Fisica']
 }
-for key in data.values/9
+
 df = pd.DataFrame(data)
 print(df)
 print('\n' * 2)
@@ -43,6 +43,7 @@ print('\n' * 2)
 
 # Llenar con ceros valor nan
 nuevo3 = pd.DataFrame(df2)
+# nuevo3 = df2.copy()
 nuevo3.fillna(0, inplace=True)
 print(nuevo3)
 print('\n' * 2)
@@ -63,3 +64,4 @@ print('\n' * 2)
 # Estadisticas individuales
 print(nuevo2['Calificacion'].max())
 print('\n' * 2)
+print(nuevo2.dtypes)
